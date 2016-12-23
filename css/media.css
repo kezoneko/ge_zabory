@@ -1,0 +1,51 @@
+/* стили для адаптивной верстки */
+@media only screen and (min-width : 1920px) {
+	.container {width: 1170px;}
+	.wrapper {width: 1800px;}
+	/* Блок заголовка */
+	header {height: 100px; padding: 10px 0;}
+		.logo {
+			width: 150px;
+			height: 100px;
+			padding-top: 88px;
+			font-size: 12px;
+			letter-spacing: 0.7249px;
+			background: url(../img/logo.png) 0 0 no-repeat;
+		}
+		.main_mnu {
+			height: 40px;
+			padding-top: 40px;
+			padding-left: 19px;
+		}
+			.main_mnu ul {list-style-type: none;}
+			.main_mnu li {display: inline-block;}
+			.main_mnu a {padding: 12px 6px; margin-right: 22px;}
+	/* Блок сразу после заголовка, со слайдером и формой Узнайте стоимость забора за 10 минут */
+	.jumbotron {height: 680px; padding: 100px 0 0; background: url(../img/fence.png) 0 100% no-repeat;}
+	/* Блок Виды ограждений */
+	.fence_types {padding: 55px 0 38px;}
+	/* Блок Устанавливаем ограждения на любых объектах */
+	.fence_install {padding: 47px 0 100px;}
+	/* Блок Клиенты нам доверяют */
+	.clients {
+		height: 824px;
+		padding: 54px 0 0;
+		background: url(../img/fence2.png) 0 0 no-repeat;
+		box-shadow: 0 0 0 439px rgba(40, 40, 40, 0.7) inset;
+	}
+}
+@media only screen and (min-width : 1366px) and (max-width : 1919px) {
+	.wrapper {width: 1300px;}
+	.header {width: 1170px;}
+}
+@media only screen and (min-width : 1024px) and (max-width : 1365px) {
+}
+@media only screen and (min-width : 800px) and (max-width : 1023px) {
+}
+
+@media only screen and (min-width : 720px) and (max-width : 799px) {
+}
+@media only screen and (min-width : 640px) and (max-width : 719px) {
+}
+@media only screen and (min-width : 320px) and (max-width : 639px) {
+}
