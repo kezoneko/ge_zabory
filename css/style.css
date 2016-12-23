@@ -1,0 +1,35 @@
+/* общие стили */
+*, ul, ol, li, h1, h2, h3, p {margin: 0; padding: 0;}
+body {
+	background-color: #141414;
+	font-family: Helvetica Neue; /* AvenirNextW1G; */
+	font-size: 16px;
+	font-weight: 400;
+	font-style: normal;
+}
+.container {margin: 0 auto;}
+.main_mnu .active {
+	background: #D34A44;
+	-webkit-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	color: #fff;
+}
+.last-h {margin-right: 0;}
+.last-v {margin-bottom: 0;}
+.wrapper {margin: 0 auto; background-color: #fff;}
+/* Блок заголовка */
+header {box-shadow: 0 0 2px -1px;}
+	.logo {float: left; color: #ADADAD;}
+	.main_mnu {float: left;}
+		.main_mnu a {color: #141414; text-decoration: none;}
+/* Блок сразу после заголовка, со слайдером и формой Узнайте стоимость забора за 10 минут */
+.jumbotron {}
+/* Блок Виды ограждений */
+.fence_types {background: #F9F9F9;}
+/* Блок Устанавливаем ограждения на любых объектах */
+.fence_install {}
+/* Блок Клиенты нам доверяют */
+.clients {}
