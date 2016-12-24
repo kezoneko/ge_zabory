@@ -1,5 +1,30 @@
 /* общие стили */
-*, ul, ol, li, h1, h2, h3, p {margin: 0; padding: 0;}
+*::-webkit-input-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*:-moz-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*::-moz-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*:-ms-input-placeholder {
+	color: #666;
+	opacity: 1;
+}
+
+body input:focus:required:invalid,
+body textarea:focus:required:invalid {
+	border: 3px solid red;
+}
+body input:required:valid,
+body textarea:required:valid {
+	border: 3px solid green;
+}
+*, ul, ol, li, h1, h2, h3, p, form, input, button {margin: 0; padding: 0;}
 body {
 	background-color: #141414;
 	font-family: Helvetica Neue; /* AvenirNextW1G; */
@@ -136,3 +161,49 @@ header {box-shadow: 0 0 2px -1px;}
 	.logo-rzd {background: url("../img/logo-rzd.png") no-repeat 0 0;}
 	.logo-shell {background: url("../img/logo-shell.png") no-repeat 0 0;}
 	.logo-unilever {background: url("../img/logo-unilever.png") no-repeat 0 0;}
+
+/* Скрытые окна форм */
+.hidden {
+	display: none;
+}
+
+/* Всплывающие окна, формы */
+.pop_form {
+	width: 290px; /* 370 - 80 */
+	padding: 14px 24px;
+	-webkit-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	text-align: center;
+}
+.pop_form h3 {
+	font-size: 22px;
+	font-weight: 500;
+	letter-spacing: 1px;
+	line-height: 28px;
+	margin-bottom: 30px;
+}
+.pop_form input[type=text] {
+	width: 230px;
+	padding: 12px 10px;
+	border: 1px solid #adadad;
+	-webkit-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	background: #fff;
+	font-size: 14px;
+	color: #adadad;
+	margin-bottom: 14px;
+}
+.pop_form button {
+	width: 250px;
+	padding: 15px 14px;
+	font-size: 14px;
+	background-image: none;
+	margin-top: 16px;
+	border-bottom: 3px solid #B43F38;
+}
