@@ -17,19 +17,122 @@ body {
 	border-radius: 5px;
 	color: #fff;
 }
-.last-h {margin-right: 0;}
-.last-v {margin-bottom: 0;}
+.last-h {margin-right: 0 !important;}
+.last-v {margin-bottom: 0 !important;}
 .wrapper {margin: 0 auto; background-color: #fff;}
 /* Блок заголовка */
 header {box-shadow: 0 0 2px -1px;}
 	.logo {float: left; color: #ADADAD;}
 	.main_mnu {float: left;}
 		.main_mnu a {color: #141414; text-decoration: none;}
+	.contact_top_phone {float: right; text-align: right;}
+			.contact_top_phone span {display: block;}
+			.contact_top_phone a {color: #D34A44;}
+		.contact_top_email {float: right; text-align: right;}
+			.contact_top_email span {color: #ADADAD; display: block;}
+			.contact_top_email a {text-decoration: none; color: #141414;}
 /* Блок сразу после заголовка, со слайдером и формой Узнайте стоимость забора за 10 минут */
 .jumbotron {}
+	.slider {float: left;}
+	#text-slide1, #text-slide2 {font-family: "AvenirNextW1G"; opacity:0;}
+			#text-slide1 span, #text-slide2 span {color: #D24A43;}
+			#text-slide2 {text-transform: uppercase;}
+			.box1 {color: #141414; font-family: "Helvetica Neue";}
+			.icon-contract {float: left; background: url("../img/icon-contract.png") no-repeat 0 0;}
+			.icon-tools {float: left; background: url("../img/icon-tools.png") no-repeat 0 0;}
+			.icon-achievment {float: left; background: url("../img/icon-achievement.png") no-repeat 0 0;}
+	/* Блок правый с формой */
+	.jumboform {
+		float: right;
+		box-shadow: 0 0 20px -1px rgba(0, 0, 0, 0.3);
+		-webkit-border-radius: 5px;
+		-webkit-border-radius: 5px;
+		-moz-border-radius: 5px;
+		-moz-border-radius: 5px;
+		border-radius: 5px;
+		background: #fff;
+	}
+		.form_cost h3 {text-align: center;}
+		.form_cost input[type=text] {
+			background: #fff;
+			-webkit-border-radius: 5px;
+			-webkit-border-radius: 5px;
+			-moz-border-radius: 5px;
+			-moz-border-radius: 5px;
+			border-radius: 5px;
+			color: #999;
+		}
+		.form_cost textarea {
+			background: #fff;
+			-webkit-border-radius: 5px;
+			-webkit-border-radius: 5px;
+			-moz-border-radius: 5px;
+			-moz-border-radius: 5px;
+			border-radius: 5px;
+			color: #999;
+			resize: none;
+		}
+		.button {
+			border: 0;
+			color: #fff;
+			-webkit-border-radius: 5px;
+			-webkit-border-radius: 5px;
+			-moz-border-radius: 5px;
+			-moz-border-radius: 5px;
+			border-radius: 5px;
+			text-align: center;
+			background: url("../img/line-red.png") 46px 0 repeat-y, url("../img/icon-phone-opacity.png") 10px 50% no-repeat #D34A44;
+			font-weight: 600;
+		}
+	/* Логотип мышки */
+	.icon_mouse {clear: both; margin: 0 auto; background: url("../img/icon-mouse.png") no-repeat 0 0;}
 /* Блок Виды ограждений */
 .fence_types {background: #F9F9F9;}
+	.title {text-align: center;}
+	.title h3 {font-weight: 600;}
+	.title span {color: #adadad;}
+	.box2 {text-align: center; box-shadow: 0 3px 5px 0 rgba(0, 0, 0, 0.1); border-radius: 15px;}
+			.box2 h3 {font-family: "AvenirNextW1G"; color: #161616;}
+			.box2 span {font-family: "AvenirNextW1G"; color: #adadad;}
+			.box2 ol {color: #161616; text-align: left; list-style-position: outside;}
+			.box2-1 {background: url("../img/fence-proflist.png") no-repeat 260px 70px;}
+			.box2-2 {background: url("../img/fence-3d-gitter.png") no-repeat 240px 70px;}
+			.box2-3 {background: url("../img/fence-rabizy.png") no-repeat 260px 70px;}
+			.box2-4 {background: url("../img/fence-polycarbon.png") no-repeat 280px 60px;}
+			.box2-5 {background: url("../img/fence-wood.png") no-repeat 280px 30px;}
+			.box2-6 {background: url("../img/fence-metal.png") no-repeat 260px 50px;}
+		.fence_types .button {margin: 0 auto;}
 /* Блок Устанавливаем ограждения на любых объектах */
 .fence_install {}
+	.box3_line {text-align: left; color: #fff;}
+		.box3 {background-color: #ccc; box-shadow:0 0 0 255px rgba(0, 0, 0, 0.33) inset; border-radius: 10px;}
+			.box3_line ul {list-style: none;}
+		.box5 {background-color: #ccc; box-shadow:0 0 0 255px rgba(0, 0, 0, 0.33) inset; border-radius: 10px;}
+		.box6 {background-color: #ccc; box-shadow:0 0 0 125px rgba(0, 0, 0, 0.33) inset; border-radius: 10px;}
+			.box3-1 {background: url("../img/image1.png") no-repeat 0 0;}
+			.box3-2 {background: url("../img/image2.png") no-repeat 0 0;}
+			.box3-3 {background: url("../img/image3.png") no-repeat 0 0;}
+			.box3-4 {background: url("../img/image4.png") no-repeat 0 0;}
+			.box3-5 {background: url("../img/image5.png") no-repeat 0 0;}
+			.box3-6 {background: url("../img/image6.png") no-repeat 0 0;}
+			.box3-7 {background: url("../img/image7.png") no-repeat 0 0;}
+			.box3-8 {background: url("../img/image8.png") no-repeat 0 0;}
 /* Блок Клиенты нам доверяют */
 .clients {}
+	.clients .title {color: #fff;}
+	.box7 {color: #fff;}
+		.box7 h3 {border-right: 6px solid #D24A43; text-align: left;}
+		.box7 span {text-align: left; vertical-align: middle;}
+	/* Блок логотипами компаний */
+	.logo-silmash {background: url("../img/logo-silmash.png") no-repeat 0 0;}
+	.logo-siemens {background: url("../img/logo-siemens.png") no-repeat 0 0;}
+	.logo-bp {background: url("../img/logo-bp.png") no-repeat 0 0;}
+	.logo-lenta {background: url("../img/logo-lenta.png") no-repeat 0 0;}
+	.logo-scania {background: url("../img/logo-scania.png") no-repeat 0 0;}
+	.logo-mega {background: url("../img/logo-mega.png") no-repeat 0 0;}
+	.logo-seticity {background: url("../img/logo-seticity.png") no-repeat 0 0;}
+	.logo-magnit {background: url("../img/logo-magnit.png") no-repeat 0 0;}
+	.logo-otis {background: url("../img/logo-otis.png") no-repeat 0 0;}
+	.logo-rzd {background: url("../img/logo-rzd.png") no-repeat 0 0;}
+	.logo-shell {background: url("../img/logo-shell.png") no-repeat 0 0;}
+	.logo-unilever {background: url("../img/logo-unilever.png") no-repeat 0 0;}
