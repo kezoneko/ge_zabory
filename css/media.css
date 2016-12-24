@@ -9,7 +9,7 @@
 			height: 100px;
 			padding-top: 88px;
 			font-size: 12px;
-			letter-spacing: 0.7249px;
+			letter-spacing: 0.5px;
 			background: url(../img/logo.png) 0 0 no-repeat;
 		}
 		.main_mnu {
@@ -19,13 +19,134 @@
 		}
 			.main_mnu ul {list-style-type: none;}
 			.main_mnu li {display: inline-block;}
-			.main_mnu a {padding: 12px 6px; margin-right: 22px;}
+			.main_mnu a {padding: 12px 6px; margin-right: 16px; font-size: 15px;}
+		.contact_top_phone {margin-top: 28px; margin-left: 55px;}
+			.contact_top_phone span {font-size: 18px; letter-spacing: 0.5px; margin-bottom: 5px;}
+			.contact_top_phone a {font-size: 14px;}
+		.contact_top_email {margin-top: 28px; float: right;}
+			.contact_top_email span {font-size: 14px; margin-bottom: 5px;}
+			.contact_top_email a {font-size: 18px;}
 	/* Блок сразу после заголовка, со слайдером и формой Узнайте стоимость забора за 10 минут */
 	.jumbotron {height: 680px; padding: 100px 0 0; background: url(../img/fence.png) 0 100% no-repeat;}
+		.slider {width: 760px; margin: 70px 0 300px; position: relative;}
+		#text-slide1, #text-slide2 {
+			position: absolute;
+			left: 0px;
+			font-size: 1.875em;
+			font-weight: 700;
+			letter-spacing: 1.5px;
+		}
+			#text-slide2 {font-size: 3.125em;}
+			.box1 {
+				margin-top: 165px;
+				margin-right: 20px;
+				display: inline-block;
+				line-height: 1.2;
+				font-size: 0.875em;
+			}
+			.icon-contract {width: 36px; height: 51px;}
+			.icon-tools {width: 51px; height: 51px;}
+			.icon-achievment {width: 35px; height: 51px;}
+			.box1-1 {width: 160px; margin-top: 10px; margin-left: 51px;}
+			.box1-2 {width: 170px; margin-top: 10px; margin-left: 66px;}
+			.box1-3 {width: 190px; margin-top: 10px; margin-left: 50px;}
+		/* Блок правый с формой */
+		.jumboform {width: 320px; padding: 25px;}
+			.form_cost h3 {
+				margin-bottom: 16px;
+				font-size: 24px;
+				font-weight: 400;
+				line-height: 30px;
+			}
+			.form_cost input[type=text] {
+				display: block;
+				width: 298px;
+				line-height: 16px;
+				padding: 12px 10px;
+				margin: 0 auto 10px;
+				border: 1px solid #999;
+				font-size: 14px;
+			}
+			.form_cost textarea {
+				display: block;
+				width: 298px;
+				height: 55px;
+				padding: 12px 10px;
+				margin: 0 auto 30px;
+				border: 1px solid #999;
+				font-size: 14px;
+			}
+			.button {
+				display: block;
+				border: 0;
+				padding: 15px 14px;
+				padding-left: 60px;
+				font-size: 14px;
+				border-bottom: 3px solid #B43F38;
+			}
+			.form_cost .button {margin: 0 auto;}
+		/* Логотип мышки */
+		.icon_mouse {width: 20px; height: 59px;}
 	/* Блок Виды ограждений */
 	.fence_types {padding: 55px 0 38px;}
+		.title h3 {font-size: 40px; letter-spacing: 2px; margin-bottom: 4px;}
+		.title span {letter-spacing: 0.7px;}
+		.fence_types .title {margin-bottom: 65px;}
+		.box2 {
+			width: 350px;
+			height: 200px;
+			margin-right: 26px;
+			margin-bottom: 34px;
+			display: inline-block;
+			padding: 20px 10px;
+			position: relative;
+		}
+			.box2 h3 {font-size: 20px; font-weight: 600;}
+			.box2 span {
+				display: block;
+				margin-bottom: 25px;
+				font-size: 0.9em;
+				font-weight: 500;
+			}
+			.box2 ol {
+				position: absolute;
+				display: block;
+				margin-left: 12px;
+				font-size: 0.75em;
+				letter-spacing: 0.1em;
+			}
+			.box2 li {margin-bottom: 1px;}
+			.box2-2 ol {width: 240px;}
+			.box2-3 ol {width: 242px;}
+			.box2-6 {margin-bottom: 51px;}
+		.fence_types .button {margin: 0 auto;}
 	/* Блок Устанавливаем ограждения на любых объектах */
 	.fence_install {padding: 47px 0 100px;}
+		.fence_install .title {margin-bottom: 80px;}
+		.box3_line {height: 510px; margin-bottom: 10px;}
+			.box3 {
+				width: 280px;
+				height: 450px;
+				margin-right: 10px;
+				float: left;
+				padding: 30px 10px;
+			}
+				.box3_line h3 {margin-bottom: 20px; font-size: 24px; font-weight: 500;}
+				.box3_line ul li {margin-bottom: 20px; font-weight: 500;}
+			.box4 {width: 405px; margin-right: 10px; float: left;}
+			.box5 {
+				width: 425px;
+				height: 450px;
+				margin-right: 10px;
+				float: left;
+				padding: 30px 10px;
+			}
+				.box6 {
+					width: 385px;
+					height: 190px;
+					margin-bottom: 10px;
+					padding: 30px 10px;
+				}
 	/* Блок Клиенты нам доверяют */
 	.clients {
 		height: 824px;
@@ -33,6 +154,50 @@
 		background: url(../img/fence2.png) 0 0 no-repeat;
 		box-shadow: 0 0 0 439px rgba(40, 40, 40, 0.7) inset;
 	}
+		.clients .title {margin-bottom: 125px;}
+		.box7_line {display: inline-block; margin-bottom: 65px;}
+		.box7 {
+			width: 390px;
+			height: 60px;
+			float: left;
+			margin-bottom: 135px;
+		}
+			.box7 h3 {
+				display: block;
+				float: left;
+				width: 80px;
+				height: 60px;
+				line-height: 65px;
+				font-size: 56px;
+				font-weight: 500;
+			}
+			.box7 span {
+				display: block;
+				float: left;
+				width: 270px;
+				margin-left: 20px;
+				padding: 4px 0;
+				font-size: 14px;
+				letter-spacing: 1px;
+			}
+		/* Блок логотипами компаний */
+		.row1, .row2, .row3 {margin: 0 auto;}
+		.row1 {width: 882px; height: 86px; margin: 0 auto;}
+		.row2 {width: 917px; height: 55px; margin: 23px auto;}
+		.row3 {width: 260px; height: 81px; margin: 35px auto;}
+		.logos {display: inline-block;}
+		.logo-silmash {width: 87px; height: 86px; margin-right: 68px;}
+		.logo-siemens {width: 153px; height: 25px; padding-top: 30px; margin-right: 40px;}
+		.logo-bp {width: 135px; height: 85px; margin-right: 48px;}
+		.logo-lenta {width: 155px; height: 46px; padding-top: 20px; margin-right: 40px;}
+		.logo-scania {width: 140px; height: 39px; padding-top: 23px;}
+		.logo-mega {width: 153px; height: 40px; padding-top: 7px; margin-right: 68px;}
+		.logo-seticity {width: 96px; height: 55px; margin-right: 60px;}
+		.logo-magnit {width: 161px; height: 37px; padding-top: 9px; margin-right: 48px;}
+		.logo-otis {width: 124px; height: 40px; padding-top: 7px; margin-right: 68px;}
+		.logo-rzd {width: 123px; height: 55px;}
+		.logo-shell {width: 71px; height: 81px; margin-right: 120px;}
+		.logo-unilever {width: 65px; height: 73px; padding-top: 4px;}
 }
 @media only screen and (min-width : 1366px) and (max-width : 1919px) {
 	.wrapper {width: 1300px;}
