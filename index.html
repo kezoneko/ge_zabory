@@ -1,10 +1,21 @@
 <!DOCTYPE html>
-<html lang=ru>
+<!--[if lt IE 7]><html lang="ru" class="lt-ie9 lt-ie8 lt-ie7"><![endif]-->
+<!--[if IE 7]><html lang="ru" class="lt-ie9 lt-ie8"><![endif]-->
+<!--[if IE 8]><html lang="ru" class="lt-ie9"><![endif]-->
+<!--[if gt IE 8]><!-->
+<html lang="ru">
+<!--<![endif]-->
 <head>
 	<meta charset=UTF-8>
 	<title>Первая линия</title>
-	<meta name=viewport content=width=device-width, initial-scale=1.0 />
-	<link rel=stylesheet href=css/font.css>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link rel="stylesheet" href="libs/bootstrap/bootstrap-grid-3.3.1.min.css" />
+	<link rel="stylesheet" href="libs/font-awesome-4.2.0/css/font-awesome.min.css" />
+	<link rel="stylesheet" href="libs/fancybox/jquery.fancybox.css" />
+	<link rel="stylesheet" href="libs/owl-carousel/owl.carousel.css" />
+	<link rel="stylesheet" href="libs/countdown/jquery.countdown.css" />
+	<link rel="stylesheet" href="css/font.css">
 	<link rel="stylesheet" href="css/style.css">
 	<link rel="stylesheet" href="css/media.css">
 </head>
@@ -23,7 +34,7 @@
 						<li><a href="#" class="last-h">Выполненные работы</a></li>
 					</ul>
 				</div><!-- end/main_mnu -->
-				<div class="contact_top_phone"><span>8 (800) 940 11 88</span><a href="#">Заказать звонок</a></div>
+				<div class="contact_top_phone"><span>8 (800) 940 11 88</span><a href="#callback" class="fancybox">Заказать звонок</a></div>
 				<div class="contact_top_email"><span>Есть вопросы? - пишите</span><a href="mailto:zakaz@pervoline.ru">zakaz@pervoline.ru</a></div>
 			</div><!-- end/container -->
 		</header>
@@ -58,7 +69,7 @@
 					<h3>Виды ограждений</h3>
 					<span>Подберём для вас оптимальный вариант</span>
 				</div>
-				<div class="box2 box2-1">
+				<a href="#cost" class="box2 box2-1 fancybox">
 					<h3>Заборы из профлиста</h3>
 					<span>от 1 450 руб./м.п.</span>
 					<ol>
@@ -68,8 +79,8 @@
 						<li>Большой выбор расцветов</li>
 						<li>Не требует ухода</li>
 					</ol>
-				</div><!-- end/box2 box2-1 -->
-				<div class="box2 box2-2">
+				</a><!-- end/box2 box2-1 -->
+				<a href="#cost" class="box2 box2-2 fancybox">
 					<h3>3D сетка Гиттер</h3>
 					<span>от 980 руб./м.п.</span>
 					<ol>
@@ -79,8 +90,8 @@
 						<li>Подходит для перепадов высот</li>
 						<li>Устойчив к механическому воздействию</li>
 					</ol>
-				</div><!-- end/box2 box2-2 -->
-				<div class="box2 last-h box2-3">
+				</a><!-- end/box2 box2-2 -->
+				<a href="#cost" class="box2 last-h box2-3 fancybox">
 					<h3>Заборы из сетки Рабицы</h3>
 					<span>от 360 руб./м.п.</span>
 					<ol>
@@ -90,8 +101,8 @@
 						<li>Простота в обслуживании</li>
 						<li>Легко превратить в живую изгородь</li>
 					</ol>
-				</div><!-- end/box2 last-h box2-3 -->
-				<div class="box2 box2-4">
+				</a><!-- end/box2 last-h box2-3 -->
+				<a href="#cost" class="box2 box2-4 fancybox">
 					<h3>Заборы из поликарбоната</h3>
 					<span>от ... руб./м.п.</span>
 					<ol>
@@ -101,8 +112,8 @@
 						<li>Экологически чистый материал</li>
 						<li>Визуально увеличивает участок</li>
 					</ol>
-				</div><!-- end/box2 box2-4 -->
-				<div class="box2 box2-5">
+				</a><!-- end/box2 box2-4 -->
+				<a href="#cost" class="box2 box2-5 fancybox">
 					<h3>Деревянный штакетник</h3>
 					<span>от ... руб./м.п.</span>
 					<ol>
@@ -112,8 +123,8 @@
 						<li>Экологически чистый материал</li>
 						<li>Требуется ежегодное обслуживание</li>
 					</ol>
-				</div><!-- end/box2 box2-5 -->
-				<div class="box2 last-h box2-6">
+				</a><!-- end/box2 box2-5 -->
+				<a href="#cost" class="box2 last-h box2-6 fancybox">
 					<h3>Металлический штакетник</h3>
 					<span>от ... руб./м.п.</span>
 					<ol>
@@ -123,8 +134,8 @@
 						<li>Большой выбор расцветов</li>
 						<li>Не требует ухода</li>
 					</ol>
-				</div><!-- end/box2 last-h box2-6 -->
-				<button class="button" type="submit">Узнать точную стоимость</button>
+				</a><!-- end/box2 last-h box2-6 -->
+				<a href="#cost" class="button fancybox">Узнать точную стоимость</a>
 			</div><!-- end/container -->
 		</section><!-- end/fence_types -->
 		<section class="fence_install">
@@ -263,23 +274,45 @@
 		</section><!-- end/clients -->
 	</div><!-- end/wrapper -->
 
-	<!-- скрипт для работы слайдера наверху сразу после заголовка -->
-	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+	<div class="hidden">
+		<form id="callback" class="pop_form">
+			<h3>Узнайте всё о заборах<br>от нашего специалиста. Перезвоним за 5 минут!</h3>
+			<input type="text" name="name" placeholder="Введите ваше имя" />
+			<input type="text" name="phone" placeholder="Введите ваш телефон*" required />
+			<button class="button" type="submit">Получить консультацию</button>
+		</form>
 
-	<script type="text/javascript">  
-		var text_slide_cur=0;
-		function showtext_slide(){
-			$('#text-slide'+(text_slide_cur+1)).css({opacity: 0}).animate({opacity: 1.0,left: "0"}, 1000);
-			setTimeout(hidetext_slide, 4000);
-		}
-		function hidetext_slide(){
-			$('#text-slide'+(text_slide_cur+1)).css({opacity: 1}).animate({opacity: 0,right: "0"}, 1000,function(){showtext_slide();});
-			text_slide_cur=(text_slide_cur+1)%2;
-		}
-		$(document).ready(function() {
-			showtext_slide();
-		})
-	</script>
+		<form id="cost" class="pop_form">
+			<h3>Получите расчёт стоимости от нашего специалиста. Перезвоним за 5 минут!</h3>
+			<input type="text" name="name" placeholder="Введите ваше имя" />
+			<input type="text" name="phone" placeholder="Введите ваш телефон*" required />
+			<button class="button" type="submit">Получить консультацию</button>
+		</form>
+
+		<form id="calculator" class="pop_form">
+			<h3>Специалист начал расчёт заполните форму, чтобы он связался с вами</h3>
+			<input type="text" name="name" placeholder="Введите ваше имя" />
+			<input type="text" name="phone" placeholder="Введите ваш телефон*" required />
+			<button class="button" type="submit">Получить консультацию</button>
+		</form>
+	</div>
+	<!--[if lt IE 9]>
+	<script src="libs/html5shiv/es5-shim.min.js"></script>
+	<script src="libs/html5shiv/html5shiv.min.js"></script>
+	<script src="libs/html5shiv/html5shiv-printshiv.min.js"></script>
+	<script src="libs/respond/respond.min.js"></script>
+	<![endif]-->
+	<script src="libs/jquery/jquery-1.11.1.min.js"></script>
+	<script src="libs/jquery-mousewheel/jquery.mousewheel.min.js"></script>
+	<script src="libs/fancybox/jquery.fancybox.pack.js"></script>
+	<script src="libs/waypoints/waypoints-1.6.2.min.js"></script>
+	<script src="libs/scrollto/jquery.scrollTo.min.js"></script>
+	<script src="libs/owl-carousel/owl.carousel.min.js"></script>
+	<script src="libs/countdown/jquery.plugin.js"></script>
+	<script src="libs/countdown/jquery.countdown.min.js"></script>
+	<script src="libs/countdown/jquery.countdown-ru.js"></script>
+	<script src="libs/landing-nav/navigation.js"></script>
+	<script src="js/common.js"></script>
 
 	<!-- скрипт для sublime text -->
 	<script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
