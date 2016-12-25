@@ -159,18 +159,18 @@ header {box-shadow: 0 0 2px -1px;}
 		.box7 h3 {border-right: 6px solid #D24A43; text-align: left;}
 		.box7 span {text-align: left; vertical-align: middle;}
 	/* Блок логотипами компаний */
-	.logo-silmash {background: url("../img/logo-silmash.png") no-repeat 0 0; background-size: cover;}
-	.logo-siemens {background: url("../img/logo-siemens.png") no-repeat 0 0; background-size: cover;}
-	.logo-bp {background: url("../img/logo-bp.png") no-repeat 0 0; background-size: cover;}
-	.logo-lenta {background: url("../img/logo-lenta.png") no-repeat 0 0; background-size: cover;}
-	.logo-scania {background: url("../img/logo-scania.png") no-repeat 0 0; background-size: cover;}
-	.logo-mega {background: url("../img/logo-mega.png") no-repeat 0 0; background-size: cover;}
-	.logo-seticity {background: url("../img/logo-seticity.png") no-repeat 0 0; background-size: cover;}
-	.logo-magnit {background: url("../img/logo-magnit.png") no-repeat 0 0; background-size: cover;}
-	.logo-otis {background: url("../img/logo-otis.png") no-repeat 0 0; background-size: cover;}
-	.logo-rzd {background: url("../img/logo-rzd.png") no-repeat 0 0; background-size: cover;}
-	.logo-shell {background: url("../img/logo-shell.png") no-repeat 0 0; background-size: cover;}
-	.logo-unilever {background: url("../img/logo-unilever.png") no-repeat 0 0; background-size: cover;}
+	.logo-silmash {background: url("../img/logo-silmash.png") no-repeat 0 0; background-size: auto auto;}
+	.logo-siemens {background: url("../img/logo-siemens.png") no-repeat 0 0; background-size: auto auto;}
+	.logo-bp {background: url("../img/logo-bp.png") no-repeat 0 0; background-size: auto auto;}
+	.logo-lenta {background: url("../img/logo-lenta.png") no-repeat 0 0; background-size: auto auto;}
+	.logo-scania {background: url("../img/logo-scania.png") no-repeat 0 0; background-size: auto auto;}
+	.logo-mega {background: url("../img/logo-mega.png") no-repeat 0 0; background-size: auto auto;}
+	.logo-seticity {background: url("../img/logo-seticity.png") no-repeat 0 0; background-size: auto auto;}
+	.logo-magnit {background: url("../img/logo-magnit.png") no-repeat 0 0; background-size: auto auto;}
+	.logo-otis {background: url("../img/logo-otis.png") no-repeat 0 0; background-size: auto auto;}
+	.logo-rzd {background: url("../img/logo-rzd.png") no-repeat 0 0; background-size: auto auto;}
+	.logo-shell {background: url("../img/logo-shell.png") no-repeat 0 0; background-size: auto auto;}
+	.logo-unilever {background: url("../img/logo-unilever.png") no-repeat 0 0; background-size: auto auto;}
 
 /* Скрытые окна форм */
 .hidden {
