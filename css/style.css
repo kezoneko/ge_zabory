@@ -32,6 +32,13 @@ body {
 	font-weight: 400;
 	font-style: normal;
 }
+.main_mnu_button {
+	border: medium none;
+	background-color: #D34A44;
+	font-size: 26px;
+	color: #fff;
+	padding: 8px 15px;
+}
 .container {margin: 0 auto;}
 .main_mnu .active {
 	background: #D34A44;
@@ -40,6 +47,10 @@ body {
 	-moz-border-radius: 5px;
 	-moz-border-radius: 5px;
 	border-radius: 5px;
+	color: #fff;
+}
+.main_mnu a:hover {
+	background-color: #6D3B39;
 	color: #fff;
 }
 .last-h {margin-right: 0 !important;}
@@ -51,11 +62,11 @@ header {box-shadow: 0 0 2px -1px;}
 	.main_mnu {float: left;}
 		.main_mnu a {color: #141414; text-decoration: none;}
 	.contact_top_phone {float: right; text-align: right;}
-			.contact_top_phone span {display: block;}
-			.contact_top_phone a {color: #D34A44;}
-		.contact_top_email {float: right; text-align: right;}
-			.contact_top_email span {color: #ADADAD; display: block;}
-			.contact_top_email a {text-decoration: none; color: #141414;}
+		.contact_top_phone span {display: block;}
+		.contact_top_phone a {color: #D34A44;}
+	.contact_top_email {float: right; text-align: right;}
+		.contact_top_email span {color: #ADADAD; display: block;}
+		.contact_top_email a {text-decoration: none; color: #141414;}
 /* Блок сразу после заголовка, со слайдером и формой Узнайте стоимость забора за 10 минут */
 .jumbotron {}
 	.slider {float: left;}
@@ -68,7 +79,6 @@ header {box-shadow: 0 0 2px -1px;}
 			.icon-achievment {float: left; background: url("../img/icon-achievement.png") no-repeat 0 0;}
 	/* Блок правый с формой */
 	.jumboform {
-		float: right;
 		box-shadow: 0 0 20px -1px rgba(0, 0, 0, 0.3);
 		-webkit-border-radius: 5px;
 		-webkit-border-radius: 5px;
@@ -129,9 +139,9 @@ header {box-shadow: 0 0 2px -1px;}
 		.fence_types .button {margin: 0 auto;}
 /* Блок Устанавливаем ограждения на любых объектах */
 .fence_install {}
-	.box3_line {text-align: left; color: #fff;}
+	.box3, .box5, .box6 {text-align: left; color: #fff;}
 		.box3 {background-color: #ccc; box-shadow:0 0 0 255px rgba(0, 0, 0, 0.33) inset; border-radius: 10px;}
-			.box3_line ul {list-style: none;}
+			.box3 ul, .box5 ul, .box6 ul {list-style: none;}
 		.box5 {background-color: #ccc; box-shadow:0 0 0 255px rgba(0, 0, 0, 0.33) inset; border-radius: 10px;}
 		.box6 {background-color: #ccc; box-shadow:0 0 0 125px rgba(0, 0, 0, 0.33) inset; border-radius: 10px;}
 			.box3-1 {background: url("../img/image1.png") no-repeat 0 0;}
@@ -149,18 +159,18 @@ header {box-shadow: 0 0 2px -1px;}
 		.box7 h3 {border-right: 6px solid #D24A43; text-align: left;}
 		.box7 span {text-align: left; vertical-align: middle;}
 	/* Блок логотипами компаний */
-	.logo-silmash {background: url("../img/logo-silmash.png") no-repeat 0 0;}
-	.logo-siemens {background: url("../img/logo-siemens.png") no-repeat 0 0;}
-	.logo-bp {background: url("../img/logo-bp.png") no-repeat 0 0;}
-	.logo-lenta {background: url("../img/logo-lenta.png") no-repeat 0 0;}
-	.logo-scania {background: url("../img/logo-scania.png") no-repeat 0 0;}
-	.logo-mega {background: url("../img/logo-mega.png") no-repeat 0 0;}
-	.logo-seticity {background: url("../img/logo-seticity.png") no-repeat 0 0;}
-	.logo-magnit {background: url("../img/logo-magnit.png") no-repeat 0 0;}
-	.logo-otis {background: url("../img/logo-otis.png") no-repeat 0 0;}
-	.logo-rzd {background: url("../img/logo-rzd.png") no-repeat 0 0;}
-	.logo-shell {background: url("../img/logo-shell.png") no-repeat 0 0;}
-	.logo-unilever {background: url("../img/logo-unilever.png") no-repeat 0 0;}
+	.logo-silmash {background: url("../img/logo-silmash.png") no-repeat 0 0; background-size: cover;}
+	.logo-siemens {background: url("../img/logo-siemens.png") no-repeat 0 0; background-size: cover;}
+	.logo-bp {background: url("../img/logo-bp.png") no-repeat 0 0; background-size: cover;}
+	.logo-lenta {background: url("../img/logo-lenta.png") no-repeat 0 0; background-size: cover;}
+	.logo-scania {background: url("../img/logo-scania.png") no-repeat 0 0; background-size: cover;}
+	.logo-mega {background: url("../img/logo-mega.png") no-repeat 0 0; background-size: cover;}
+	.logo-seticity {background: url("../img/logo-seticity.png") no-repeat 0 0; background-size: cover;}
+	.logo-magnit {background: url("../img/logo-magnit.png") no-repeat 0 0; background-size: cover;}
+	.logo-otis {background: url("../img/logo-otis.png") no-repeat 0 0; background-size: cover;}
+	.logo-rzd {background: url("../img/logo-rzd.png") no-repeat 0 0; background-size: cover;}
+	.logo-shell {background: url("../img/logo-shell.png") no-repeat 0 0; background-size: cover;}
+	.logo-unilever {background: url("../img/logo-unilever.png") no-repeat 0 0; background-size: cover;}
 
 /* Скрытые окна форм */
 .hidden {
@@ -178,12 +188,15 @@ header {box-shadow: 0 0 2px -1px;}
 	border-radius: 5px;
 	text-align: center;
 }
-.pop_form h3 {
+.pop_text {width: 690px; padding: 30px 35px 40px;}
+.pop_text p {margin-bottom: 15px;}
+.pop_form h3, .pop_text h3 {
 	font-size: 22px;
 	font-weight: 500;
 	letter-spacing: 1px;
 	line-height: 28px;
 	margin-bottom: 30px;
+	text-align: center;
 }
 .pop_form input[type=text] {
 	width: 230px;
