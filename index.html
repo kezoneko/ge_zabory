@@ -56,8 +56,9 @@
 				<div class="jumboform">
 					<form id="formcost" class="form_cost">
 						<h3>Узнайте стоимость забора за 10 минут</h3>
+						<input type="hidden" name="theme" value="Узнайте стоимость забора за 10 минут">
 						<input type="text" name="name" placeholder="Введите ваше имя" />
-						<input type="text" name="phone" placeholder="Введите ваш телефон*" required>
+						<input type="text" name="phone" class="phone" placeholder="Введите ваш телефон*" required>
 						<textarea name="message" placeholder="Введите сообщение"></textarea>
 						<button class="button" type="submit">Узнать стоимость</button>
 					</form>
@@ -276,22 +277,25 @@
 	<div class="hidden">
 		<form id="callback" class="pop_form">
 			<h3>Узнайте всё о заборах<br>от нашего специалиста. Перезвоним за 5 минут!</h3>
+			<input type="hidden" name="theme" value="Узнайте всё о заборах от нашего специалиста. Перезвоним за 5 минут!">
 			<input type="text" name="name" placeholder="Введите ваше имя" />
-			<input type="text" name="phone" placeholder="Введите ваш телефон*" required />
+			<input type="text" name="phone" class="phone" placeholder="Введите ваш телефон*" required />
 			<button class="button" type="submit">Получить консультацию</button>
 		</form>
 
 		<form id="cost" class="pop_form">
 			<h3>Получите расчёт стоимости от нашего специалиста. Перезвоним за 5 минут!</h3>
+			<input type="hidden" name="theme" value="Получите расчёт стоимости от нашего специалиста. Перезвоним за 5 минут!">
 			<input type="text" name="name" placeholder="Введите ваше имя" />
-			<input type="text" name="phone" placeholder="Введите ваш телефон*" required />
+			<input type="text" name="phone" class="phone" placeholder="Введите ваш телефон*" required />
 			<button class="button" type="submit">Получить консультацию</button>
 		</form>
 
 		<form id="calculator" class="pop_form">
 			<h3>Специалист начал расчёт заполните форму, чтобы он связался с вами</h3>
+			<input type="hidden" name="theme" value="Специалист начал расчёт заполните форму, чтобы он связался с вами">
 			<input type="text" name="name" placeholder="Введите ваше имя" />
-			<input type="text" name="phone" placeholder="Введите ваш телефон*" required />
+			<input type="text" name="phone" class="phone" placeholder="Введите ваш телефон*" required />
 			<button class="button" type="submit">Получить консультацию</button>
 		</form>
 
@@ -324,6 +328,7 @@
 	<script src="libs/countdown/jquery.countdown.min.js"></script>
 	<script src="libs/countdown/jquery.countdown-ru.js"></script>
 	<script src="libs/landing-nav/navigation.js"></script>
+	<script src="libs/jquery-maskedinput/jquery.maskedinput.min.js"></script>
 	<script src="js/common.js"></script>
 
 	<!-- скрипт для sublime text -->
