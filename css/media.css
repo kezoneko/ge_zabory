@@ -77,16 +77,7 @@
 				margin: 0 auto 30px;
 				border: 1px solid #999;
 				font-size: 14px;
-			}
-			.button {
-				text-decoration: none;
-				display: inline-block;
-				border: 0;
-				padding: 15px 14px;
-				padding-left: 60px;
-				font-size: 14px;
-				border-bottom: 3px solid #B43F38;
-			}
+			}			
 			.form_cost .button {margin: 0 auto;}
 		/* Логотип мышки */
 		.icon_mouse {width: 20px; height: 59px;}
@@ -102,8 +93,7 @@
 			margin-bottom: 34px;
 			display: inline-block;
 			padding: 20px 10px;
-			position: relative;
-			text-decoration: none;
+			position: relative;			
 		}
 			.box2 h3 {font-size: 20px; font-weight: 600;}
 			.box2 span {
@@ -211,8 +201,7 @@
 		.logo-unilever {width: 65px; height: 73px; padding-top: 4px;}
 }
 @media only screen and (min-width : 1366px) and (max-width : 1919px) {
-	.container {width: 1170px;}
-	.wrapper {width: 1300px;}
+	.container {width: 1170px;}	
 	/* Блок заголовка */
 	header {height: 100px; padding: 10px 0;}
 		.logo {
@@ -268,7 +257,7 @@
 			.form_cost h3 {
 				margin-bottom: 16px;
 				font-size: 24px;
-				font-weight: 400;
+				font-weight: 500;
 				line-height: 30px;
 			}
 			.form_cost input[type=text] {
@@ -288,16 +277,7 @@
 				margin: 0 auto 30px;
 				border: 1px solid #999;
 				font-size: 14px;
-			}
-			.button {
-				text-decoration: none;
-				display: inline-block;
-				border: 0;
-				padding: 15px 14px;
-				padding-left: 60px;
-				font-size: 14px;
-				border-bottom: 3px solid #B43F38;
-			}
+			}			
 			.form_cost .button {margin: 0 auto;}
 		/* Логотип мышки */
 		.icon_mouse {width: 20px; height: 59px;}
@@ -313,8 +293,7 @@
 			margin-bottom: 34px;
 			display: inline-block;
 			padding: 20px 10px;
-			position: relative;
-			text-decoration: none;
+			position: relative;			
 		}
 			.box2 h3 {font-size: 20px; font-weight: 600;}
 			.box2 span {
@@ -419,13 +398,12 @@
 		.logo-otis {width: 124px; height: 40px; padding-top: 7px; margin-right: 68px;}
 		.logo-rzd {width: 123px; height: 55px;}
 		.logo-shell {width: 71px; height: 81px; margin-right: 120px;}
-		.logo-unilever {width: 65px; height: 73px; padding-top: 4px;}
+		.logo-unilever {width: 65px; height: 73px; padding-top: 4px;}		
 }
-@media only screen and (min-width : 1024px) and (max-width : 1365px) {
-	.container {width: 800px;}
-	.wrapper {width: 1000px;}
+@media only screen and (min-width : 1024px) and (max-width : 1365px) {	
 	/* Блок заголовка */
 	header {height: 100px; padding: 10px 0;}
+	.container {width: 80%; margin: 0 auto;}
 		.logo {
 			width: 54px;
 			height: 54px;
@@ -451,7 +429,7 @@
 			.contact_top_email a {font-size: 18px;}
 		.main_mnu_button {display: none;}
 	/* Блок сразу после заголовка, со слайдером и формой Узнайте стоимость забора за 10 минут */
-	.jumbotron {padding: 100px 0 0; background: url(../img/fence.png) 0 100% no-repeat;}
+	.jumbotron {padding: 100px 0 0; background: url(../img/fence.png) 0 100% no-repeat;}	
 		.slider {
 			width: 800px;
 			margin: 0;
@@ -511,16 +489,7 @@
 				margin: 0 auto 30px;
 				border: 1px solid #999;
 				font-size: 14px;
-			}
-			.button {
-				text-decoration: none;
-				display: inline-block;
-				border: 0;
-				padding: 15px 14px;
-				padding-left: 60px;
-				font-size: 14px;
-				border-bottom: 3px solid #B43F38;
-			}
+			}			
 			.form_cost .button {margin: 0 auto;}
 		/* Логотип мышки */
 		.icon_mouse {width: 20px; height: 59px; padding-bottom: 30px;}
@@ -536,8 +505,7 @@
 			margin-bottom: 34px;
 			display: inline-block;
 			padding: 20px 10px;
-			position: relative;
-			text-decoration: none;
+			position: relative;			
 		}
 			.box2 h3 {font-size: 20px; font-weight: 600;}
 			.box2 span {
@@ -561,6 +529,7 @@
 		.fence_types .button {margin: 0 auto;}
 	/* Блок Устанавливаем ограждения на любых объектах */
 	.fence_install {padding: 47px 0;}
+	.boxes_wrapper {width: 725px;margin: 0 auto;}
 		.fence_install .title {margin-bottom: 80px;}
 			.box3 {
 				width: 280px;
@@ -596,15 +565,14 @@
 				.box3-9 {margin-bottom: 60px;}
 	/* Блок Клиенты нам доверяют */
 	.clients {
-		height: 1150px;
-		padding: 54px 0 0;
+		height: 1150px;		
 		clear: both;
-		background: url(../img/fence2.png) 0 0 no-repeat;
-		background-size: cover;
-		box-shadow: 0 0 0 510px rgba(40, 40, 40, 0.7) inset;
+		background: url(../img/fence2.png) 0 0 no-repeat;		
+		background-size: cover;						
 	}
+	.clients .container {width: 100%; background-color: #2A2A2A;opacity: .7;height: 95.4%;padding: 54px 0 0;}
 		.clients .title {margin-bottom: 125px;}
-		.box7_line {display: inline-block; margin-bottom: 65px;}
+		.box7_line {width: 800px; margin: 0 auto 65px auto}
 		.box7 {
 			width: 390px;
 			height: 60px;
@@ -637,7 +605,7 @@
 		.row1 {width: 600px; margin: 0 auto 20px; text-align: center;}
 		.row2 {width: 600px; margin: 23px auto; text-align: center;}
 		.row3 {width: 260px; height: 81px; margin: 35px auto;}
-		.logos {display: inline-block;}
+		.logos {display: inline-block;z-index: 1;}
 		.logo-silmash {width: 87px; height: 86px; margin-right: 68px;}
 		.logo-siemens {width: 153px; height: 25px; padding-top: 30px; margin-right: 40px;}
 		.logo-bp {width: 135px; height: 85px; margin-right: 48px;}
@@ -649,11 +617,25 @@
 		.logo-otis {width: 124px; height: 40px; padding-top: 7px; margin-right: 68px;}
 		.logo-rzd {width: 123px; height: 55px;}
 		.logo-shell {width: 71px; height: 81px; margin-right: 120px;}
-		.logo-unilever {width: 65px; height: 73px; padding-top: 4px;}
+		.logo-unilever {width: 65px; height: 73px; padding-top: 4px;}		
+		/* styles for middle part and footer */
+		.prop {width: 20.5%;}	
+		.val {width: 68%;}
+		.prop_height {width: 20.5%;}
+		.val_height {width: 18%;}
+		.prop_length {width: 33.7%;}
+		.val_length {width: 11.5%;}
+		.slider_wrapper h2 {padding: 0 10px;}
+		.container_txt {width: 980px;margin: 0 auto}
+		.map {
+	    	background: url(../img/map1349.jpg) no-repeat center; 
+	    	background-size: cover;   
+	    	height: 300px;
+		}
+		.politic {margin: 30px 0 0 384px;}
 }
 @media only screen and (min-width : 800px) and (max-width : 1023px) {
-	.container {width: 640px;}
-	.wrapper {width: 800px;}
+	.container {width: 640px;}	
 	/* Блок заголовка */
 	header {height: 54px; padding: 10px 0;}
 		.logo {
@@ -748,16 +730,7 @@
 				margin: 0 auto 30px;
 				border: 1px solid #999;
 				font-size: 14px;
-			}
-			.button {
-				text-decoration: none;
-				display: inline-block;
-				border: 0;
-				padding: 15px 14px;
-				padding-left: 60px;
-				font-size: 14px;
-				border-bottom: 3px solid #B43F38;
-			}
+			}			
 			.form_cost .button {margin: 0 auto;}
 		/* Логотип мышки */
 		.icon_mouse {width: 20px; height: 59px; padding-bottom: 30px;}
@@ -773,8 +746,7 @@
 			margin-bottom: 34px;
 			display: block;
 			padding: 20px 10px;
-			position: relative;
-			text-decoration: none;
+			position: relative;			
 		}
 			.box2 h3 {font-size: 20px; font-weight: 600;}
 			.box2 span {
@@ -797,6 +769,7 @@
 		.fence_types .button {margin: 0 auto; clear: both;}
 	/* Блок Устанавливаем ограждения на любых объектах */
 	.fence_install {padding: 47px 0;}
+	.boxes_wrapper {width: 420px;margin: 0 auto;}
 		.fence_install .title {margin-bottom: 80px;}
 			.box3 {
 				width: 385px;
@@ -828,13 +801,12 @@
 				.box3-5 {height: 220px;}
 	/* Блок Клиенты нам доверяют */
 	.clients {
-		height: 1150px;
-		padding: 54px 0 0;
+		height: 1200px;		
 		clear: both;
 		background: url(../img/fence2.png) 0 0 no-repeat;
-		background-size: cover;
-		box-shadow: 0 0 0 510px rgba(40, 40, 40, 0.7) inset;
+		background-size: cover;		
 	}
+	.clients .container {width: 100%; background-color: #2A2A2A; opacity:.7;height:95.4%;padding:54px 0 0;}
 		.clients .title {margin-bottom: 25px;}
 		.box7_line {display: block; margin-bottom: 65px;}
 		.box7 {
@@ -879,11 +851,47 @@
 		.logo-rzd {width: 123px; height: 55px;}
 		.logo-shell {width: 71px; height: 81px; margin-right: 120px;}
 		.logo-unilever {width: 65px; height: 73px; padding-top: 4px;}
+		.slider_image_wrapper {padding-bottom: 40px;}	
+	/* styles for middle part and footer */
+	.prop {width: 207px;}
+	.prop_height {width: 207px;}
+	.val {width: 70%;padding-left: 14px;}
+	.val_height {padding-left: 14px;width: 18%;}
+	.prop_length {width: 34.6%;}
+	.val_length {width: 14%;margin-left: 10px;padding-left: 0;}
+	.val button {width: 31%;margin-right: 10px;}
+	input[name="gates"] {width: 31%;}
+	.val_height button {width: 42%;}
+	.under_key_wrapper {width: 100%;}	
+	.under_key_up .under_key_div:last-child, .under_key_down .under_key_div:last-child {
+    	padding-left: 10px;
+    	width: 40%;
+	}
+	.under_key_up .under_key_div:first-child, .under_key_down .under_key_div:first-child {
+    	width: 51%;
+    	padding-left: 20px;    
+	}
+	.container_txt {width: 780px;}
+	.phone-form .form {width: 700px;}
+	.phone-form .fig img {
+		position: absolute;
+		margin: -42px 0 0 -73px;
+	}
+	.phone-form .fig img {visibility: hidden;}
+	.map {
+	    background: url(../img/map1024.jpg) no-repeat center; 
+	    background-size: cover;   
+	    height: 228px;
+	}
+	.politic {margin: 30px 0 0 282px;}
+	.popup-div {
+		width: 700px;
+		height: 460px;
+		margin: 30px auto;
+	}
 }
-
 @media only screen and (min-width : 720px) and (max-width : 799px) {
-	.container {width: 640px;}
-	.wrapper {width: 720px;}
+	.container {width: 640px;}	
 	/* Блок заголовка */
 	header {height: 54px; padding: 10px 0;}
 		.logo {
@@ -978,16 +986,7 @@
 				margin: 0 auto 30px;
 				border: 1px solid #999;
 				font-size: 14px;
-			}
-			.button {
-				text-decoration: none;
-				display: inline-block;
-				border: 0;
-				padding: 15px 14px;
-				padding-left: 60px;
-				font-size: 14px;
-				border-bottom: 3px solid #B43F38;
-			}
+			}			
 			.form_cost .button {margin: 0 auto;}
 		/* Логотип мышки */
 		.icon_mouse {width: 20px; height: 59px; padding-bottom: 30px;}
@@ -1003,8 +1002,7 @@
 			margin-bottom: 34px;
 			display: block;
 			padding: 20px 10px;
-			position: relative;
-			text-decoration: none;
+			position: relative;			
 		}
 			.box2 h3 {font-size: 20px; font-weight: 600;}
 			.box2 span {
@@ -1058,13 +1056,12 @@
 				.box3-5 {height: 220px;}
 	/* Блок Клиенты нам доверяют */
 	.clients {
-		height: 1150px;
-		padding: 54px 0 0;
+		height: 1200px;		
 		clear: both;
 		background: url(../img/fence2.png) 0 0 no-repeat;
-		background-size: cover;
-		box-shadow: 0 0 0 510px rgba(40, 40, 40, 0.7) inset;
+		background-size: cover;		
 	}
+	.clients .container {width: 100%; background-color: #2A2A2A; opacity:.7;height:95.4%;padding:54px 0 0;}
 		.clients .title {margin-bottom: 25px;}
 		.box7_line {display: block; margin-bottom: 65px;}
 		.box7 {
@@ -1109,6 +1106,60 @@
 		.logo-rzd {width: 123px; height: 55px;}
 		.logo-shell {width: 71px; height: 81px; margin-right: 120px;}
 		.logo-unilever {width: 65px; height: 73px; padding-top: 4px;}
+	/* styles for middle part and footer */
+	.under_key_up .under_key_div:first-child div:nth-child(2) {margin-bottom: 65px;}
+	.under_key_up .under_key_div:first-child {position: relative;}
+	.under_key_up a.button {
+		position: absolute;
+		left: 14px;
+		top: 97px;
+	}
+	.under_key_up .under_key_div {padding-bottom: 20px;}
+	.under_key_div div {margin-bottom: 5px;}
+	.under_key_div span {white-space: nowrap;}
+	.prop {width: 100%;text-align: center;}
+	.prop_height {width: 131px;}
+	.val {
+		width: 100%;
+		text-align: center;
+		padding: 5px 0;
+	}
+	.val_height {padding-left: 0;width: 19%;}
+	.val_height button {width: 39%;}
+	.prop_length {width: 44.6%;}
+	.val_length {width: 17.3%;;margin-left: 0;}	
+	.under_key_up .under_key_div:last-child, .under_key_down .under_key_div:last-child {
+    	padding-left: 10px;
+		width: 45%;
+	}
+	.under_key_up .under_key_div:first-child, .under_key_down .under_key_div:first-child {
+    	width: 51%;
+    	padding-left: 10px;    
+	}
+	.slider_image_wrapper {
+		padding-bottom: 40px;
+	}
+	.container_txt {width: 700px;}
+	.phone-form .form {width: 680px;}	
+	.phone-form .fig img {visibility: hidden;}
+	.phone-form .form p {padding-left: 0;}
+	.map {
+	    background: url(../img/map800.jpg) no-repeat center; 
+	    background-size: cover;   
+	    height: 178px;
+	    margin-top: -30px;
+	}
+	.politic {margin: 30px 0 0 229px;}
+	.popup-div {
+		width: 550px;
+		height: 470px;
+		margin: 30px auto;
+	}
+	.popup-div p {
+		font-size: 16px;
+		padding: 20px;
+		line-height: 20px;
+	}
 }
 @media only screen and (min-width : 640px) and (max-width : 719px) {
 	.container {width: 640px;}
@@ -1207,16 +1258,7 @@
 				margin: 0 auto 30px;
 				border: 1px solid #999;
 				font-size: 14px;
-			}
-			.button {
-				text-decoration: none;
-				display: inline-block;
-				border: 0;
-				padding: 15px 14px;
-				padding-left: 60px;
-				font-size: 14px;
-				border-bottom: 3px solid #B43F38;
-			}
+			}			
 			.form_cost .button {margin: 0 auto;}
 		/* Логотип мышки */
 		.icon_mouse {width: 20px; height: 59px; padding-bottom: 30px;}
@@ -1232,8 +1274,7 @@
 			margin-bottom: 34px;
 			display: block;
 			padding: 20px 10px;
-			position: relative;
-			text-decoration: none;
+			position: relative;			
 		}
 			.box2 h3 {font-size: 20px; font-weight: 600;}
 			.box2 span {
@@ -1338,8 +1379,98 @@
 		.logo-rzd {width: 123px; height: 55px;}
 		.logo-shell {width: 71px; height: 81px; margin-right: 120px;}
 		.logo-unilever {width: 65px; height: 73px; padding-top: 4px;}
+	/* styles for middle part and footer */
+	.under_key_up .under_key_div:first-child, .under_key_down .under_key_div:first-child {
+    	border: none;
+    	width: 90%;
+    	padding-left: 20px;
+	}
+	.under_key_up .under_key_div {padding-bottom: 15px;}
+	.under_key_up .under_key_div:last-child, .under_key_down .under_key_div:last-child {
+    	padding-left: 20px;
+    	width: 90%;
+	}
+	.under_key_down {margin-bottom: 50px;}
+	.bottom_text {margin-bottom: 65px;}
+	.calculate_cost_wrapper h2 {margin-bottom: 55px;}
+	.prop {width: 100%;text-align: center;}
+	.prop_height {width: 131px;}
+	.val {
+		width: 100%;
+		text-align: center;
+		padding: 5px 0;
+		margin-bottom: 20px;
+	}
+	.val_height {padding-left: 0;width: 18%;}
+	.prop_length {width: 41.6%;}
+	.val_length {width: 19%;margin-left: 0;}
+	.prop_height {width: 100%;}
+	.val_height {width: 100%;}
+	.val_height button {width: 62px;}
+	.val_height button:first-child {margin-right: 70px;}
+	.row:nth-child(4) .val button {margin-bottom: 10px;}
+	.container_txt {width: 600px;}
+	.phone-form .form {
+		width: 600px;
+		height: 265px;
+	}
+	.phone-form .fig img {visibility: hidden;}
+	.phone-form .form p {
+		float: none;
+		padding-top: 10px;
+		text-align: center;
+		margin-bottom: 15px;
+	}
+	.phone-form form {
+		float: none;
+		padding: 0;
+		text-align: center;		
+	}
+	.phone-form input {margin: 0 auto 15px auto;}
+	.phone-form form button {
+	    width: 273px;
+	    cursor: pointer;
+	    margin: 0 auto;
+	}
+	.container_txt div {width: 50%;}
+	.contacts {height: 420px;}
+	.contacts h1 {padding-top: 25px;}
+	.contacts .icons img {padding-top: 30px;}
+	.map {
+	    background: url(../img/map720.jpg) no-repeat center; 
+	    background-size: cover;   
+	    height: 160px;
+	}
+	footer {height: 105px;}
+	footer .right {padding: 55px 0 0 0px;
+	}
+	footer .politic {
+		clear: both;
+		text-align: center;
+		margin-top: -100px;
+	}
+	footer .right {padding: 53px 0 10px 0;}
+	.politic {
+		position: static;
+		margin: 0;
+	}
+	.popup-div {
+		width: 500px;
+		height: 450px;
+		margin: 45px auto;
+	}
+	.popup-div p {
+		font-size: 16px;
+		padding: 15px;
+		line-height: 20px;
+	}
+	.popup-div h1 {
+		font-size: 20px;
+		padding-top: 20px;
+		text-align: center;
+	}
 }
-@media only screen and (min-width : 320px) and (max-width : 639px) {
+@media only screen and (max-width : 639px) {
 	.container {width: 320px;}
 	.wrapper {width: 100%;}
 	/* Блок заголовка */
@@ -1433,16 +1564,7 @@
 				margin: 0 auto 30px;
 				border: 1px solid #999;
 				font-size: 14px;
-			}
-			.button {
-				text-decoration: none;
-				display: inline-block;
-				border: 0;
-				padding: 15px 14px;
-				padding-left: 60px;
-				font-size: 14px;
-				border-bottom: 3px solid #B43F38;
-			}
+			}			
 			.form_cost .button {margin: 0 auto;}
 		/* Логотип мышки */
 		.icon_mouse {width: 20px; height: 59px; padding-bottom: 30px;}
@@ -1458,8 +1580,7 @@
 			margin-bottom: 34px;
 			display: block;
 			padding: 20px 10px;
-			position: relative;
-			text-decoration: none;
+			position: relative;			
 		}
 			.box2 h3 {font-size: 20px; font-weight: 600;}
 			.box2 span {
@@ -1514,7 +1635,7 @@
 	/* Блок Клиенты нам доверяют */
 	.clients {
 		height: 100%;
-		padding: 54px 0 0;
+		padding: 54px 0 20px;
 		clear: both;
 		background: url(../img/fence2.png) 0 0 no-repeat;
 		background-size: cover;
@@ -1550,18 +1671,114 @@
 		.row1, .row2, .row3 {margin: 0 auto;}
 		.row1 {width: 300px; margin: 0 auto 20px; text-align: center;}
 		.row2 {width: 300px; margin: 23px auto; text-align: center;}
-		.row3 {width: 260px; height: 81px; margin: 35px auto;}
+		.row3 {width: 156px; height: 81px; margin: 20px auto;}
 		.logos {display: inline-block;}
 		.logo-silmash {width: 87px; height: 86px; margin-right: 10px;}
-		.logo-siemens {width: 153px; height: 25px; margin-right: 10px;}
+		.logo-siemens {width: 153px; height: 25px; margin-right: 10px; margin-bottom: 25px;}
 		.logo-bp {width: 135px; height: 85px; margin-right: 10px;}
 		.logo-lenta {width: 155px; height: 46px; margin-right: 10px;}
 		.logo-scania {width: 140px; height: 39px;}
-		.logo-mega {width: 153px; height: 40px; margin-right: 10px;}
-		.logo-seticity {width: 96px; height: 55px; margin-right: 60px;}
+		.logo-mega {width: 153px; height: 40px; margin-right: 10px; margin-right: -7px;}
+		.logo-seticity {width: 96px; height: 55px; margin: 10px 55px 10px 65px;}
 		.logo-magnit {width: 161px; height: 37px; margin-right: 10px;}
 		.logo-otis {width: 124px; height: 40px; margin-right: 10px;}
 		.logo-rzd {width: 123px; height: 55px;}
 		.logo-shell {width: 71px; height: 81px; margin-right: 10px;}
 		.logo-unilever {width: 65px; height: 73px;}
+	/* styles for middle part and footer */
+	.under_key {padding-top: 10px;}
+	.under_key_wrapper {width: 100%;margin-top: 35px;}
+	.under_key_up .under_key_div:first-child div:nth-child(2) {
+    	margin-bottom: 7px;
+	}
+	.under_key_div div {margin-bottom: 5px;}
+	.under_key_up .under_key_div:first-child, .under_key_down .under_key_div:first-child {
+    	border: none;    
+	}
+	.under_key_div span {white-space: nowrap;}
+	.under_key_up .under_key_div:last-child, .under_key_down .under_key_div:last-child {
+    	padding-left: 18px;
+    	width: 42%;
+	}
+	.bottom_text {margin-bottom: 46px; margin-top: 70px;}
+	.calculate_cost_wrapper h2 {margin-bottom: 55px;}
+	.prop {width: 100%; text-align: center;}
+	.prop_height {width: 100%;}
+	.val {width: 100%; text-align: center; padding: 5px 0;}
+	.val button {width: 44%;margin-right: 0;}
+	.val button:nth-child(2n+1) {margin-right: 5px;}
+	.val button:nth-child(5), .val button:nth-child(6) {width: 89%;}
+	.row:nth-child(2) .val button:nth-child(5), .row:nth-child(4) .val button {
+		margin-bottom: 14px;
+	}	
+	.val_height {width: 100%;}
+	.val_height button {width: 62px;}
+	.val_height button:first-child {margin-right: 70px;}
+	.prop_length {width: 100%;}
+	.val_length {width: 100%; margin-left: 0;}
+	.val_length input {width: 180px;}
+	input[name="gates"] {width: 44%;}
+	input[name="wickets"] {width: 180px;}
+	.under_key_wrapper {position: relative;}	
+	.under_key .under_key_wrapper .under_key_div {width: 94%; padding-right: 10px;}
+	.under_key .under_key_up .under_key_div:first-child {padding-bottom: 120px;}
+	.under_key .under_key_down .under_key_div {position: absolute;}
+	.under_key .under_key_down .under_key_div:first-child {top: 246px; padding-bottom: 10px;}
+	.under_key_up .under_key_div:last-child {padding-bottom: 0;}
+	.under_key div.bottom_text {margin-top: 155px;}
+	.slider_image_wrapper h2 {margin-bottom: 0;}
+	.slider_image_wrapper {padding-bottom: 40px;}
+	.contacts {height: 430px;}
+	.contacts h1 {padding-top: 25px;}
+	.container_txt {width: 310px;}
+	.container_txt div {width: 50%;}
+	.phone-form .fig img {visibility: hidden;}
+	.phone-form .form {width: 93%; margin-bottom: 100px;height: 265px;}
+	.phone-form .form p {
+		float: none;
+		padding-top: 10px;
+		text-align: center;
+		margin-bottom: 15px;
+	}
+	.phone-form form {
+		float: none;
+		padding: 0;
+		text-align: center;				
+	}
+	.phone-form input {width: 247px; margin: 0 auto 15px auto;}
+	.phone-form form button {
+	    width: 273px;
+	    cursor: pointer;
+	    margin: 0 auto;
+	}		
+	.contacts .icons p {font-size: 16px;}
+	.contacts .icons img {padding-top: 30px;}
+	.map {
+	    background: url(../img/map640.jpg) no-repeat center; 
+	    background-size: cover;   
+	    height: 142px;
+	    margin-top: -40px;
+	}
+	footer {height: 100%;}
+	footer .right {padding: 53px 0 10px 0;}
+	footer .politic {clear: both; text-align: center; margin-top: -100px; position: static; margin: 0;}
+	.popup-div {
+		width: 300px;
+		height: 520px;
+		margin: 10px auto;
+	}
+	.popup-div p {
+		font-size: 14px;
+		padding: 10px;
+		line-height: 16px;
+	}
+	.popup-div h1 {
+		font-size: 18px;
+		padding-top: 10px;
+		text-align: center;
+	}	
+}
+/* styles for middle part and footer */
+@media only screen and (max-width : 320px) {	
+	.wrapper {width: 320px;}
 }
