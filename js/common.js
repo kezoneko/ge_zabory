@@ -13,90 +13,71 @@ $(document).ready(function() {
 	//Слайдер после заголовка
 	showtext_slide();
 
-	//Код jQuery, установливающий маску для ввода телефона элементу input
-	//1. После загрузки страницы,  когда все элементы будут доступны выполнить...
-	/*$(function(){
-	//2. Получить элемент, к которому необходимо добавить маску
-	$("#phone").mask("8(999) 999-9999");
-	});*/
-	//2. Получить элемент, к которому необходимо добавить маску
-	$(".phone").mask("+7 (999) 999-99-99");
+	//Код jQuery, установливающий маску для ввода телефона элементу input	
+	$(".phone").mask("+7 (999) 999-99-99");	
 
-	$(".main_mnu_button").click(function() {
-		$(".main_mnu ul").slideToggle();
-	});
-
-	//Таймер обратного отсчета
-	//Документация: http://keith-wood.name/countdown.html
-	//<div class="countdown" date-time="2015-01-07"></div>
-	var austDay = new Date($(".countdown").attr("date-time"));
-	$(".countdown").countdown({until: austDay, format: 'yowdHMS'});
-
-	//Попап менеджер FancyBox
-	//Документация: http://fancybox.net/howto
-	//<a class="fancybox"><img src="image.jpg" /></a>
-	//<a class="fancybox" data-fancybox-group="group"><img src="image.jpg" /></a>
+	//Попап менеджер FancyBox	
 	$(".fancybox").fancybox();
 
-	//Навигация по Landing Page
-	//$(".top_mnu") - это верхняя панель со ссылками.
-	//Ссылки вида <a href="#contacts">Контакты</a>
-	$(".top_mnu").navigation();
+	//slider for images in middle part
+	$('.bxslider').bxSlider({
+  		minSlides: 2,
+  		maxSlides: 2,
+  		slideWidth: 590,
+  		slideMargin: 30,
+  		captions: true,
+  		auto: true
+	});
 
-	//Добавляет классы дочерним блокам .block для анимации
-	//Документация: http://imakewebthings.com/jquery-waypoints/
-	$(".block").waypoint(function(direction) {
-		if (direction === "down") {
-			$(".class").addClass("active");
-		} else if (direction === "up") {
-			$(".class").removeClass("deactive");
-		};
-	}, {offset: 100});
+  	// position of the navigation arrows in section slider_image_wrapper
+  	var coord = (($(".bx-wrapper").width() - ($(".bx-pager-item").width() * $(".bx-pager").children().length) )  / $(".bx-wrapper").width())*50;
+  	if($(window).width() > 1024) {    
+    	$(".bx-prev").css("left", coord - 5 + "%");
+    	$(".bx-next").css("right", coord - 5 + "%");
+  	} else {
+     	$(".bx-prev").css("left", coord - 10 + "%");
+     	$(".bx-next").css("right", coord - 10 + "%");
+  	}
+
+  	//handler for click on button in section "calculate_cost"
+  	$("button").on("click", function() {
+    	$(this).toggleClass("active");    
+  	});	
 
 	//Плавный скролл до блока .div по клику на .scroll
 	//Документация: https://github.com/flesler/jquery.scrollTo
-	$("a.scroll").click(function() {
-		$.scrollTo($(".div"), 800, {
-			offset: -90
-		});
-	});
 
-	//Каруселька
-	//Документация: http://owlgraphic.com/owlcarousel/
-	var owl = $(".carousel");
-	owl.owlCarousel({
-		items : 1,
-		autoHeight: true
+	$("a.advantages").click(function() {
+		$.scrollTo($(".clients"), 1500);
 	});
-	owl.on("mousewheel", ".owl-wrapper", function (e) {
-		if (e.deltaY > 0) {
-			owl.trigger("owl.prev");
-		} else {
-			owl.trigger("owl.next");
-		}
-		e.preventDefault();
+	$("a.terms").click(function() {
+		$.scrollTo($(".under_key"), 1500);
 	});
-	$(".next_button").click(function(){
-		owl.trigger("owl.next");
+	$("a.calc").click(function() {
+		$.scrollTo($(".calculate_cost"), 1500);
 	});
-	$(".prev_button").click(function(){
-		owl.trigger("owl.prev");
+	$("a.works").click(function() {
+		$.scrollTo($(".slider_image_wrapper"), 1500);
 	});
 
 	//Кнопка "Наверх"
 	//Документация:
 	//http://api.jquery.com/scrolltop/
 	//http://api.jquery.com/animate/
-	$("#top").click(function () {
-		$("body, html").animate({
-			scrollTop: 0
-		}, 800);
-		return false;
-	});
+	$(function() { 
+		$(window).scroll(function() { 
+			if($(this).scrollTop() != 0) { 
+				$('#toTop').fadeIn(); 
+			} else { 
+				$('#toTop').fadeOut(); 
+			} 
+		}); 
+		$('#toTop').click(function() { 
+			$('body,html').animate({scrollTop:0},800); 
+		}); 
+	});	
 	
-	//Аякс отправка форм
-	//Документация: http://api.jquery.com/jquery.ajax/
-	
+	//Аякс отправка форм	
 	$("#formcost").submit(function() {
 		$.ajax({
 			type: "GET",
